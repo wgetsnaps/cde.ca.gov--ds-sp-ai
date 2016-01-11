@@ -1,6 +1,6 @@
 # Snapshot of CA Dept. of Education SAT, ACT, AP Test Results Page
 
-See the mirror at: http://wgetsnapshots.cde.ca.gov--ds-sp-ai/ds/sp/ai/
+See the mirror at: http://wgetsnaps.github.io/cde.ca.gov--ds-sp-ai/ds/sp/ai/
 
 This repository is a mirror of the following site:
 

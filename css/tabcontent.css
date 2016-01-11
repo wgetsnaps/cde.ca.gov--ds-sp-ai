@@ -1,0 +1,80 @@
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 3px 7px;
+margin-right: 3px;
+/* moved to topic css file - border-bottom: 1px solid #000066;*/
+color: white;
+/* moved to topic css file - background: #DDEEFF; */
+color:#000000;
+font-size:.95em;
+}
+
+.shadetabs li a:visited{
+text-decoration: none;
+color: #000000;
+}
+
+.shadetabs li a:hover{
+text-decoration: none;
+/* moved to topic css file - background-color:#4F6A92; */
+color:#FFFFFF;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+text-decoration: none;
+position: relative;
+top: 0px;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+/* 
+not used - 
+	background-image: url(shadeactive.gif); 
+moved to topic css file - 
+	border-bottom-color: #000066;
+	background-color: #000066;
+*/
+color: #ffffff;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontent{
+display:none;
+}
+
+.tabborder{ /* added to make a border around the tab content */
+width:100%;
+margin-bottom: 1em;
+padding: 10px
+}
+
+/* Removes printing of all tabs so only active tab is printed - tjb 9/18/2012
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+*/
+

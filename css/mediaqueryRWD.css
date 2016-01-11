@@ -1,0 +1,128 @@
+/* Really small devices */
+@media (max-width: 319px) {
+	body {font-size:12px;}
+
+}
+
+/* larger than compressed */
+@media (min-width: 768px) {
+	body {font-size:16px;}
+	h1 {font-size:30px;}
+	h2 {font-size:24px;}
+	h3 {font-size:22px;}
+	h4 {font-size:20px;}
+	h5 {font-size:18px;}
+	h6 {font-size:16px;}
+	
+	#outer-container {
+		margin-top:10px;
+	}
+	
+	.visible-search-form{display:none!important}
+	.visible-navbar{display:none!important}
+}
+
+/* compressed nav menu */
+@media (max-width: 767px) {
+	body {font-size:14px;}
+	h1 {font-size:26px;}
+	h2 {font-size:22px;}
+	h3 {font-size:20px;}
+	h4 {font-size:18px;}
+	h5 {font-size:16px;}
+	h6 {font-size:14px;}
+	
+	#outer-container {
+		padding-left:0px;
+		padding-right:0px;
+		margin-top:0px;
+	}
+	.nav-top-col-menu-item {
+		margin-top: 10px;
+	}
+	.dropdown-toggle {
+		border-top: 1px solid rgba(255,255,255,0.3); 
+		border-bottom: 1px solid rgba(0,0,0,0.1); 
+	}
+	.dropdown-menu a {
+		color:white;
+	}
+	.dropdown-menu li {
+		padding-left:2px;
+	}
+	.yamm .dropdown {
+		font-size:16px;
+	}
+	.yamm .yamm-content {
+		font-size:16px;
+	}	
+	.visible-search-form{display:block!important}
+	.visible-navbar{display:block!important}
+		
+	h2, h3, h4, h5, h6 {margin-top: 20px}
+	
+	
+	.shadetabs li a {
+		display: block;
+		width: 100%;
+		border: 1px white solid;
+		text-align: center;
+		font-size: 14px;
+		background: #DDEEFF;
+	}
+
+	#letterheadContentRWD {margin-left: 30px; margin-right: 30px;}
+	#sbeletterhead {margin-left: 30px; margin-right: 30px; padding-top: 14px; }	
+	#sbeletterheadcontent {margin-left: 30px; margin-right: 30px;}
+	#currcommissionletterhead {margin-left: 30px; margin-right: 30px;}
+	#currcommissionletterheadcontent {margin-left:30px; margin-right:30px;}
+}	
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones */
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Portrait phones  */
+@media (min-width: 320px) and (max-width: 479px) {
+	
+
+}
+
+@media (min-width: 480px) {
+	.visible-xxs-inline{display:none !important}
+	.visible-xxs-block{display:none !important}
+}
+
+@media (max-width: 479px) {
+	.visible-xxs-inline{display:inline !important}
+	.visible-xxs-block{display:block !important}
+	.visible-xs-inline{display:none !important}
+	.visible-xs-block{display:none !important}
+	
+	#NRcontactRightside {
+		float:none !important;
+		clear:both;
+		margin-right:2px !important;
+	}
+	
+	#letterheadContentRWD {margin-left: 10px; margin-right: 10px;}
+	#sbeletterhead {margin-left: 10px; margin-right: 10px; padding-top: 10px; }	
+	#sbeletterheadcontent {margin-left: 10px; margin-right: 10px;}
+	#sbeletterheadgov {padding-top:6px;padding-bottom:10px;}
+	#currcommissionletterhead {margin-left: 10px; margin-right: 10px;}
+	#currcommissionletterheadcontent {margin-left:10px; margin-right:10px;}
+	#currcommissionletterheadtoplines {margin-bottom:20px;}
+	
+}

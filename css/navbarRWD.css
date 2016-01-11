@@ -1,0 +1,49 @@
+#logobase a {
+position:absolute; 
+left:1px; /*left:10px;*/
+width:322px; /*255px;*/
+height:70px; 
+background-image: url(http://www.cde.ca.gov/images/cdeLogoBASE-faded.gif); 
+display:block;}
+
+.invisible {position:absolute; left:-9000px;}
+
+
+.list-unstyled,
+.list-unstyled ul { min-width: 120px }
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {margin-bottom: 10px; min-height:32px !important}
+	
+.navbar-inverse { background-color: #000066}
+.navbar-inverse a {text-decoration:none;} 
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #4F6A92}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #4F6A92}
+.navbar-inverse { background-image: none; }
+.navbar-inverse { border-color: #080808}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .navbar-toggle {border-color: transparent; float:left; margin-left: 4px; margin-right: 4px;}
+
+.navbar-brand {height:32px;padding-top:8px;padding-bottom:6px;padding-left:8px; padding-right:0px;}
+
+.navbar-hamburger-icon {margin-top:4px;margin-bottom:4px;padding-top:6px;padding-bottom:4px;}
+.navbar-search-icon {float:right;background-color:#000066;border-color:transparent;padding-top:4px;padding-bottom:2px;margin-top:4px;margin-bottom:4px; }
+
+.nav-topic-home {margin-bottom:10px;font-weight:bold}
+li.nav-subtopic {font-weight:bold}
+ul.nav-subtopic-items {padding-left:20px; list-style:square}
+ul.nav-subtopic-items>li {}
+	
+.yamm {}
+.yamm .yamm-content {padding-top:4px;padding-bottom:4px;padding-left:14px;padding-right:4px;font-size:12px;background-color:#DDEEFF}
+.yamm .yamm-content a {color:#000000;text-decoration:none;}
+.yamm .yamm-content a:hover {background-color:transparent;text-decoration:underline;}

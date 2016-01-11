@@ -1,0 +1,17 @@
+/* on staging, we use a background color, but on www, there is no background color */
+/* all other blockquote properties are defined in indexCSS.css */
+blockquote {
+  background-color:#FFFFFF;
+}
+
+/* on staging, we display the text and use a background color, but on www, we do not display */
+/* all other printurl properties are defined in indexCSS.css */
+.printurl{
+	display:none;
+	background-color:#FFFFFF;
+}
+
+li.nobulletlist /* added to remove the bullet from unorderlists, when nobulletlist class is applied in Contribute 02/12/2013 - tjb */
+{
+	background-color:#FFFFFF;
+}

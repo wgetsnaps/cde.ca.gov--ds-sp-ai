@@ -1,0 +1,138 @@
+/* CDE BASE (Global default colors) */
+
+/* Oct 2014: Responsive Web Design version
+
+/* header colors */
+h1 { color:#000066; }
+h2 { color:#4F6A92; }
+
+/* header is dark unless table has no border */
+th, th a:link, th a:visited { 
+   background-color:#000066; color:#FFFFFF; 
+} th a:hover { color:#ffc; }
+
+/* light, dark and shadow colors */
+.dark   { background-color:#000066; }
+.light  { background-color:#4F6A92; } .different { background-color:#336699; }
+.shadow { background-color:#DDEEFF; }
+
+/* bulleted lists */
+ul { list-style-image: url(http://www.cde.ca.gov/images/bullets/ul-item.gif); } 
+ul ul { list-style-image: url(http://www.cde.ca.gov/images/bullets/ul-item2.gif); }
+ul ul ul { list-style-image: url(http://www.cde.ca.gov/images/bullets/ul-item3.gif); }
+
+/* bulleted lists - added so embedded numbered list in a bulleted list will display numbers - 01/07/2015 tjb */
+ul ol { list-style-image:none;  }
+ul ul ol { list-style-image:none; }
+
+.smtxt2 { /* unlike smtxt, this is bold and navy colored */
+   font-family:Verdana, Arial, Helvetica, Sans-serif; 
+   line-height:normal; 
+   font-weight:bold; 
+   font-size:0.8em;    
+   color:#006699; 
+}
+
+/* if smtxt2 class is used inside the link*/
+.smtxt2:link, .smtxt2:visited { color:#006699; text-decoration:underline; }
+.smtxt2:hover, .smtxt2:active { color:#4F6A92; text-decoration:underline; }
+/* if used inside td with link immediately following it */
+td.smtxt2 a:link, td.smtxt2 a:visited { color:#006699; text-decoration:underline; }
+td.smtxt2 a:hover, td.smtxt2 a:active { color:#4F6A92; text-decoration:underline; }
+
+.topic-color { background-color:#DDEEFF; }
+
+#wrap{ /* for Wide-Data-Tables template - added 11/20/06 - tjb */
+	margin:0 20px;
+}
+
+#body p { font-family:Arial, Helvetica, sans-serif; }
+
+/* input fields - for developers only */
+.yellow-field { /* light yellow bg */	
+	font-family:Tahoma, Verdana, Arial; padding-left:3px;		
+    background-color:#FFFFF1; color:#000000; /*/*/
+	height:auto; /* */
+}
+
+.blue-field { /* light blue bg */	
+	font-family:Tahoma, Verdana, Arial; padding-left:3px;	
+    background-color:#DEEFFF; color:#000000; /*/*/
+    height:auto; /* */
+}
+
+.blue-button { /* blue colored buttons - more colors maybe in phase 02 */
+   font-family:Arial, Helvetica, sans-serif; /*/*/
+   border-bottom:solid 2px #000066; border-right:solid 2px #000066;
+   border-left:solid 2px #88AADD; border-top:solid 2px #88AADD;
+   letter-spacing:normal; height:25px; /* */
+   background-color:#4F6A92; color:#FFFFFF;	
+   font-weight:bold; font-size:0.9em; /* or 1em */ 
+}
+
+/* topic index page left navigation */
+
+#leftnavigation {background-color:#DDEEFF;}
+
+#leftnavigation a.dark, #leftnavigation a:visited.dark {
+	background-color:#000066;
+	color:#FFF;
+	}
+#leftnavigation a:visited.darkhome, #leftnavigation a.darkhome {
+	background-color:#000066;
+	color:#FFF;
+	}
+#leftnavigation a:hover.dark {
+	background-color:#4F6A92;
+	color:#FFF;
+	}
+#leftnavigation a.light, #leftnavigation a:visited.light {
+	background-color:#4F6A92;
+	color:#FFF;
+	}
+#leftnavigation a:hover.light {
+	background-color:#000066;
+	color:#FFF;
+	}
+
+#panelbottom {
+	border-top-color: #4F6A92;
+}
+
+/* end topic index page left navigation */
+
+/* related content section border color - blue */
+#relatedcontent {border-color: #4F6A92;}
+
+/* horizontal rule color under page title */
+hr.coloredline {color:#000066; border-color: #000066;}
+
+/* tabcontent topic color changes for the Tabs template */
+.shadetabs li a{
+border-bottom: 1px solid #000066; /* dark color */
+background: #DDEEFF; /* shadow color */
+}
+
+.shadetabs li a:hover{
+background-color:#4F6A92; /* light color */
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+border-bottom-color: #000066; /* dark color */
+background-color: #000066; /* dark color */
+}
+
+.tabborder{ /* added to change the border color around the tab content to match the topic area color */
+border:1px solid #000066; /* dark color */
+border-top:5px solid #000066; /* dark color */
+}
+
+/* Sub-menu navigation colors */
+#submenudiv li a {
+color:#000066; /* dark color */
+}
+#submenudiv li a.active, #submenudiv a:hover {
+background-color:#DDEEFF; /* shadow color */
+} 
+
+/* End Stylesheet */ 

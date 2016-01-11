@@ -1,0 +1,563 @@
+body {
+	padding-bottom: 40px;
+	color: #000000;
+	background-color: #F7F4EE;
+	background-image: url("http://www.cde.ca.gov/images/background1260.jpg"); 
+	background-position: center center;
+	background-repeat: repeat-y;
+}
+footer {
+  margin-top: 10px;
+}
+
+/* .container { width: auto; max-width: 1170px; } */
+.container { width: auto; max-width: 1240px; }
+
+#content p {margin-bottom:16px;}
+
+td {padding: 6px;}
+
+th {text-align: center; padding:6px;}
+
+/* Heading font-size defined in mediaqueryRWD.css */
+  
+/* h1 always Dark site color */
+h1 { 
+  font-family:Arial, Helvetica, Sans-serif;
+  font-weight:normal;
+  line-height:35px; 
+  margin:0;
+
+} 
+
+/* h2 always Medium (light) site color */
+h2 { 
+  font-family:Arial, Helvetica, Sans-serif;
+  font-weight:normal;
+  line-height:normal;
+}
+
+/* h3 always gold */
+h3 { 
+  font-family:Arial, Helvetica, Sans-serif;
+  font-weight:normal;
+  line-height:normal;
+  color:#C93; /* h3 always gold */ 
+}
+
+/* h4 always navy */ 
+h4 { 
+  font-family:Arial, Helvetica, Sans-serif;
+  line-height:normal; 
+  color:#069; /* h4 always navy */ 
+  font-weight:bold;
+}
+
+/* h5 always black color */
+h5 { 
+  font-family:Arial, Helvetica, Sans-serif;
+  line-height:normal; /* added (2/9/06)*/
+  font-weight:bold;
+}
+
+/* h6 always black color */
+h6 { 
+  font-family:Arial, Helvetica, Sans-serif;
+  line-height:normal;
+  /*margin-bottom:0; -- pre-RWD */
+  font-weight:bold;
+}
+
+/* .noheadingspace {margin-bottom:-11px;}  pre-RWD */
+.noheadingspace {margin-bottom:0px;}
+
+hr { height:1px; width:100%; color:#CC9933; text-align:center; margin-top:10px; border:none; border-top:1px #CC9933 solid;}
+
+/*-- pseudo classes --*/
+
+a:link    { color:#0000FF; text-decoration:underline; }
+a:visited { color:#B100FF; text-decoration:underline; }
+a:active  { color:#CC9933; text-decoration:underline; }
+a:hover { background-color:#DCEEFF; text-decoration:underline; } 
+
+a[href$='#top']:link, a[href$='#top']:visited { color:#069; text-decoration:none; } 
+a[href$='#top']:hover, a[href$='#top']:active { color:#69C; text-decoration:underline; }
+
+a[href$='#skip']:link, a[href$='#skip']:visited { color:#069; text-decoration:none; } 
+a[href$='#skip']:hover, a[href$='#skip']:active { color:#69C; text-decoration:underline; }
+
+/*-- custom classes --*/
+
+.hideurl{
+	display:none;
+}
+
+.printurl{
+	background-color:#FFFF99;  /*-- display with light yellow background color on Staging --*/
+	/* on www, the www-specific.css file is referenced to not display the text */
+}
+
+.smtxt { 
+  font-family:Verdana, Arial, Helvetica, Sans-serif;
+  font-size:11px;
+}
+
+.smtxt2 { /* unlike smtxt, this is bold and navy colored */
+   font-family:Verdana, Arial, Helvetica, Sans-serif; 
+   line-height:normal; 
+   font-weight:bold; 
+   font-size:0.8em;    
+   color:#006699; 
+}
+
+/* if smtxt2 class is used inside the link*/
+.smtxt2:link, .smtxt2:visited { color:#006699; text-decoration:underline; }
+.smtxt2:hover, .smtxt2:active { color:#6699CC; text-decoration:underline; }
+/* if used inside td with link immediately following it */
+td.smtxt2 a:link, td.smtxt2 a:visited { color:#006699; text-decoration:underline; }
+td.smtxt2 a:hover, td.smtxt2 a:active { color:#6699CC; text-decoration:underline; }
+
+.largetxt {
+  font-family:Arial, Helvetica, sans-serif; letter-spacing:1px;
+  line-height:22px; font-weight:bold; font-size:1.05em; 
+}
+
+.sup { /* superscript */
+  font-family:Verdana, Arial, Helvetica, Sans-serif;
+  vertical-align:super; font-size:75%;
+}
+
+.sub { /* subscript */
+  font-family:Verdana, Arial, Helvetica, Sans-serif;
+  vertical-align:sub; font-size:75%;
+}
+
+/*.indent { display:block; margin:auto 41px; padding-bottom:1em; }*/
+.indent { display:block; margin:auto 41px; } html>body .indent { padding-top:1em; }
+table.indent { display:table; margin-bottom:1em; }
+
+.mmhide_go { /* global search button */
+   border:solid 2px; border-color:#DFCA9E #996600 #996600 #DFCA9E; color:#FFF;
+   background-color:#C9851A; font-family:Verdana, Arial, Sans-serif; 
+   font-weight:bold; font-size:0.8em; height:2.3em; width:2.8em;
+}
+
+/*-- generated content --*/
+
+a[href$='.pdf']:after { 
+   content: url(http://www.cde.ca.gov/images/pdf.gif); display:inline; vertical-align:middle; 
+	background-color:#FFF; padding:3px 1px 0 3px; 
+} 
+
+
+a[href$='#top'], a[href$='#skip'] { 
+   font-family:Verdana, Arial, Helvetica, Sans-serif; text-decoration:none; 
+	line-height:normal; font-style:normal; font-size:0.8em; 
+	font-weight:bold; 
+} 
+
+
+#questionsline {
+   /* font-family:Verdana, Arial, Helvetica, Sans-serif; */
+   line-height:normal; 
+   font-weight:bold; 
+   color:#006699;
+   padding-top:16px; 
+   margin-right:2px;
+   text-align:left;
+   clear:both;
+	}
+	
+#questionsline a:link    { color:#006699; text-decoration:underline; }
+#questionsline a:visited { color:#006699; text-decoration:underline; }
+#questionsline a:active  { color:#006699; text-decoration:underline; }
+
+
+#footerEEO /* Equal Opportunity footer text on /ls/nu/, /pd/fs/, and /ds/sh/sn/ */
+{
+	/*width:750px;*/
+	text-align:right;
+	margin-top:55px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:.7em;
+	font-family:arial, helvetica, sans-serif;
+	letter-spacing:1px;
+	color:#666666;
+}
+#footerEEO a:link    { color:#666666; text-decoration:none; }
+#footerEEO a:visited { color:#666666; text-decoration:none; }
+#footerEEO a:active  { color:#666666; text-decoration:none; }
+#footerEEO a:hover {background-color:#FFFFFF; color:#666666; text-decoration:underline;}
+
+#footer {width:800px; text-align:left; margin-top:10px; margin-left:auto; margin-right:auto; padding-bottom:30px;}
+
+#footer .line /* colored separator line for wide page template only */
+{ 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid; 
+	border-bottom-color: #CC9933; 
+	margin-bottom: 4px;
+} 
+
+#footer #address 
+{
+	font-size:1.0em;
+	font-family:Trebuchet MS, Arial, Helvetica, Sans-serif;
+	color:#CC9933;
+	line-height:18px;
+	font-weight:bold;
+	margin-top:0;
+	float:left;
+}
+
+#footer #footerlinks 
+{
+	font-size:0.8em;
+	font-family:arial, helvetica, sans-serif;
+	letter-spacing:1px;
+	text-align:center;
+	margin-top:20px;
+}
+#footer #footerlinks a:link {text-decoration:none; color:#666666;}
+#footer #footerlinks a:visited {text-decoration:none; color:#666666;}
+#footer #footerlinks a:active {text-decoration:none; color:#666666;}
+#footer #footerlinks a:hover {background-color:#FFFFFF; color:#666666; text-decoration:underline;}
+
+hr.coloredline
+{
+	width:100%;
+}
+
+#precontent 
+{
+	margin-top:12px;
+}
+
+li.nobulletlist /* added to remove the bullet from unorderlists, when nobulletlist class is applied in Contribute 02/12/2013 - tjb */
+{
+	list-style-image: none;
+	list-style-type:none;
+	background-color:#CCFFFF;
+}
+
+#fipstyle /* used to style the 'Find In Page (FIP) search tool 03/13/2013 - tjb */
+{
+	text-align:center;
+}
+
+span.searchword /* used to highlight search terms found using the 'Found in Page' (FIP) search tool 02/25/2013 - tjb */
+{
+	font-weight: bold;
+	background-color: yellow;
+}
+
+
+
+.breadcrumb {font-size:12px;margin-bottom: 10px;}
+.breadcrumb a {color:#000000;text-decoration:none;}
+.breadcrumb a:hover {background-color:transparent;text-decoration:underline;}
+.breadcrumb > li + li:before {color:#000000}
+
+.panel-default > .panel-heading {background-color: #DDEEFF; color:#000000;}
+.panel-body {font-size:14px;}
+
+*.facebookiconcolor {color:#44619D;}
+*.twittericoncolor {color:#3A8FCC;}
+*.googleplusiconcolor {color:#E12B2D;}
+*.favoriteiconcolor {color:#FEC95E;}
+*.othericoncolor {color:#8F979C;}
+*.linkediniconcolor {color:#4A9ED6;}
+*.extlinkiconcolor {color:#FF8E00;font-size:.9em;}
+
+footer {
+	background-color:#f5f5f5;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+footer h6 {text-size:14px;margin-bottom:10px;}
+footer p {margin-bottom:2px}
+footer a {
+	color: #000000 !important;
+	text-decoration: none;
+	background-color: transparent;
+	font-size:12px;
+}
+footer a:hover {
+	color: #000000 !important;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+#lastreviewed {text-align:left;margin-top: 16px;}
+
+/* NoBulletListSideBar style to remove bullets from right side related content and recently posted lists */
+.nobulletlistsidebar{
+	list-style-type: none;
+	list-style-image:none;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.nobulletlistsidebar li{
+	margin-bottom: 15px;
+}
+.nobulletlistsidebar li:last-child{
+	margin-bottom: 0px;
+}
+
+
+.webapp-row {
+	clear: both;
+	padding-top: 6px; padding-bottom:6px;
+}
+
+.webapp-label {
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding-top:2px;
+	padding-right:4px;
+}
+
+.webapp-field {
+  float: left;
+  padding-left: 10px;
+  text-align: left; 
+ } 
+ 
+a.sharer-icons:hover{
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.yamm .yamm-content {padding-top:4px;padding-bottom:4px;padding-left:14px;padding-right:4px;font-size:12px;}
+
+@media screen {
+  #logoimage{ /* hide CDE Logo image, except for print - see @media print css and /includes/rwd-header.asp */
+	  display:none;
+  }
+}
+
+@media print {
+  #logoimage{ /* display CDE Logo for print, only. See @media screen and /includes/rwd-header.asp  */
+	  display:block;
+  }
+  
+  footer {display:none;}
+  
+  a[href]:after {
+	content: none;
+  }
+  
+  hr {
+	color: #000000;
+	border-top-color: #000000;
+  }
+  
+  div#rightside-column.col-md-3 {display:none;}
+  
+  div#top-search-box.col-lg-6 {display:none;}
+}
+
+.lastmodified {
+	text-align: center;
+}
+
+#btnMore {
+	color:#000000;
+	text-decoration:underline;
+	font-size:.9em;	
+}
+
+
+
+
+
+
+/* Copied from indexCSS.css, more may need to be copied - tjb */
+
+
+/* used to hide QSF Skip to Content and h1 Page Title added to letterhead templates  to ensure all pages have a heading tag for accessibility, but can be used to hide other items - 01/15/2013 - tjb */
+.hiddencontent{
+	position:absolute;
+	left:-500px;
+	top:-475px;
+	height:1px;
+	width:1px;
+	overflow:hidden;
+}
+
+
+.centeredText {
+    text-align:center;
+    }
+
+img.centeredText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.leftText {
+    text-align:left;
+    } 
+    
+.rightText {
+    text-align:right;
+    } 
+
+/* Sub-menu navigation - see topic specific CSS files for background color changes - 09/06/2013 tjb */
+
+#submenudiv{
+margin-top: -5px;
+margin-bottom:15px;
+}
+#submenudiv ul {
+margin: 0px;
+padding: 0px;
+text-align:center;
+}
+#submenudiv li
+{
+list-style-type: none;
+display:inline;
+margin: 0;
+line-height:20px;
+}
+#submenudiv li a {
+color:#000000; /* over-ridden in the topic specific CSS files. */
+background-color:#ffffff;
+text-decoration: none;
+/* width:24%;  does not work in FF */
+border: none;
+padding:0px;
+} 
+#submenudiv li a {
+text-decoration: underline;
+}
+#submenudiv li a.active, #submenudiv a:hover {
+text-decoration: underline;
+background-color:#DDEEFF; /* over-ridden in the topic specific CSS files. */
+}
+
+/* Management Bulletins Shared Asset - 06/05/2014 tjb */
+
+#mbdiv p, #mbdiv hr{margin-top:0;}
+#mbleftside {float:left; width:60%;}
+#mbrightside {float:right; width:30%;}
+
+/* Accordian (FAQs, etc) - 08/07/2014 tjb */
+
+h5.toggle {
+  background-image: url(http://www.cde.ca.gov/images/faqplusarrow.png);
+  background-repeat: no-repeat;
+  font-size:1em;
+  /* font-weight:bold; */
+  font-weight:normal;
+  padding-top:5px;
+  padding-left:27px;
+  margin:2px;
+}
+
+h5.expanded {
+  background-image: url(http://www.cde.ca.gov/images/faqminusarrow.png);
+}
+h5.toggle a {
+  /* color: #000000; */
+  text-decoration:none;
+  /* font-weight:bold; */
+}
+h5.toggle a:focus {
+  /* color:#000000; */
+}
+h5.toggle a:hover {
+  /* color:#000000; */
+}
+.toggle p{
+  margin-top:0;
+  padding-left:.8em; /* RWD adjustment - tjb 10/19/2015 */
+}
+.toggle ul{
+  margin-top:0;
+  margin-bottom:0;
+}
+div.wrapper{
+}
+div.toggle{
+  margin:2px;
+  padding:5px;
+  padding-left:28px;
+}
+
+	/* Accordian (FAQs, etc) - Expand All | Collapse All */
+
+#hide1, #show1{
+  text-decoration:underline;
+  /* font-weight:bold; */
+}
+
+	/* Accordian (FAQs, etc) - Numbered FAQs */
+
+ol h5.toggle{
+  background-image: none;
+  padding-left:0px;
+}
+
+ol h5.expanded{
+  background-image: none;
+  padding-left:0px;
+}
+
+li.faqli, li.faqli p, li.faqli table, li.faqli h6{
+  margin-left:-12px;	
+}
+
+li.faqli div.toggle {
+  padding-left:13px;
+}
+
+li.faqli a{
+  /* color:#000000; */
+  text-decoration:underline;
+}
+
+/* End Accordian (FAQs, etc) - 08/07/2014 tjb */
+
+/* Sortable Table - 01/26/2014 tjb */
+
+.TableSort-NoAltRows{}
+table.TableSort-NoAltRows .sortLink { display: block; *margin-bottom: 1px; color: #FFF; text-decoration: underline; }
+table.TableSort-NoAltRows .sortLink:hover { background-color: transparent;}
+table.TableSort-NoAltRows .sortIcon { padding-left: 3px; vertical-align: 1px; text-decoration:none; }
+th{padding:4px;}
+
+.TableSort-AltRows{}
+table.TableSort-AltRows .sortLink { display: block; *margin-bottom: 1px; color: #FFF; text-decoration: underline; }
+table.TableSort-AltRows .sortLink:hover { background-color: transparent;}
+table.TableSort-AltRows .sortIcon { padding-left: 3px; vertical-align: 1px; text-decoration:none; }
+th{padding:4px;}
+
+/* End Sortable Table - 01/26/2015 tjb */
+
+.webapp-imgheader {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ddeeff+1,ddeeff+37,4f6a92+100 */
+background: #ddeeff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ddeeff 1%, #ddeeff 37%, #4f6a92 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(1%,#ddeeff), color-stop(37%,#ddeeff), color-stop(100%,#4f6a92)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ddeeff 1%,#ddeeff 37%,#4f6a92 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ddeeff 1%,#ddeeff 37%,#4f6a92 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ddeeff 1%,#ddeeff 37%,#4f6a92 100%); /* IE10+ */
+background: linear-gradient(to right,  #ddeeff 1%,#ddeeff 37%,#4f6a92 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddeeff', endColorstr='#4f6a92',GradientType=1 ); /* IE6-9 */
+}
+
+#top-search-box {
+	padding-top:10px;
+	padding-right:0px;
+}
+
+/* End stylesheet */

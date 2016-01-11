@@ -1,0 +1,105 @@
+/* Cascading Stylesheet for the Data & Satistics (DS) */
+
+/* header colors */
+H1 { color:#850000; }
+H2 { color:#925F2C; }
+th, th a:link, th a:visited  { background-color:#850000; color:#FFFFFF; } th a:hover { color:#ffc; }
+
+/* light, dark, and shadow */
+.dark   { background-color:#850000; }
+.light  { background-color:#925F2C; }
+.shadow { background-color:#D0AD89; }
+
+/* bulleted lists */
+ul { list-style-image: url(http://www.cde.ca.gov/images/bullets/ul-ds.gif); }
+ul ul { list-style-image: url(http://www.cde.ca.gov/images/bullets/ul-ds2.gif); }
+ul ul ul { list-style-image: url(http://www.cde.ca.gov/images/bullets/ul-ds3.gif); }
+
+.topic-color { background-color:#E9CEC6; }
+
+/* topic index page left navigation */
+
+#leftnavigation {background-color:#D0AD89;}
+
+#leftnavigation a.dark, #leftnavigation a:visited.dark {
+	background-color:#850000;
+	color:#FFF;
+	}
+#leftnavigation a.darkhome, #leftnavigation a:visited.darkhome {
+	background-color:#850000;
+	color:#FFF;
+	}
+#leftnavigation a:hover.dark {
+	background-color:#925F2C;
+	color:#FFF;
+	}
+#leftnavigation a.light, #leftnavigation a:visited.light {
+	background-color:#925F2C;
+	color:#FFF;
+	}
+#leftnavigation a:hover.light {
+	background-color:#850000;
+	color:#FFF;
+	}
+
+#panelbottom {
+	border-top-color: #925F2C;
+}
+
+/* end topic index page left navigation */
+
+/* related content section border color - red */
+#relatedcontent {border-color: #850000;}
+
+hr.coloredline {color:#850000; border-color: #850000;}
+
+/* tabcontent topic color changes for the Tabs template */
+.shadetabs li a{
+border-bottom: 1px solid #850000; /* dark color */
+background: #D0AD89; /* shadow color */
+}
+
+.shadetabs li a:hover{
+background-color:#925F2C; /* light color */
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+border-bottom-color: #850000; /* dark color */
+background-color: #850000; /* dark color */
+}
+
+.tabborder{ /* added to change the border color around the tab content to match the topic area color */
+border:1px solid #850000; /* dark color */
+border-top:5px solid #850000; /* dark color */
+}
+
+/* Sub-menu navigation colors */
+#submenudiv li a {
+background-color:#850000; /* dark color */
+}
+#submenudiv li a.active, #submenudiv a:hover {
+background-color:#925F2C; /* light color */
+} 
+
+/* RWD topic-related colors */
+#logobase a {background-image: url(http://www.cde.ca.gov/images/cdeLogoDS-faded.gif)}
+.navbar-inverse { background-color: #850000}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #925F2C}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #925F2C}
+.navbar-search-icon {background-color:#850000}
+.yamm .yamm-content {background-color:#D0AD89}
+
+.panel-default > .panel-heading {background-color: #D0AD89;}
+
+.btn-primary {background-color:#850000;border-color:#850000;}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color:#925F2C;
+  border-color: #925F2C;
+}
+
+/* End Stylesheet */
